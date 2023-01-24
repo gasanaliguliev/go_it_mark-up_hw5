@@ -255,11 +255,11 @@ ul {
 }
 
 .link__img:hover .portfolio-top-text {
-   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 2px 1px rgba(46, 47, 66, 0.08);
+   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
    transform: translateY(0%);
 }
+
+
 
 .portfolio-top-wrap {
    position: relative;
@@ -280,6 +280,7 @@ ul {
    margin: 0;
    transition: transform 250ms var(--timing-function);
    transform: translateY(100%) ;
+   border: 0.5px solid #F4F4FD;
 }
 
 
